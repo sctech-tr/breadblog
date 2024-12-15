@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BreadBlog</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.png" type="image/png">
+    </head>
+    <body>
+        <h1>Import data</h1>
+        <p>Enter localStorage data as JSON exported in <a href="export.html">the export data page</a> on the other device. Click "Import" to start importing.<br></p>
+        <textarea id="import" rows="10" cols="50"></textarea>
+        <button onclick="importData()">Import</button>
+        <p id="importStatus"></p>
+        <a href="index.html">Back to Feed</a>
+        <script src="scripts/import.js" defer></script>
+    </body>
+</html>

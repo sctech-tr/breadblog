@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BreadBlog</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favicon.png" type="image/png">
+        <script>
+            function testFun() {
+                alert("successful!")
+            }
+        </script>
+    </head>
+    <body>
+        <h1>BreadBlog Feed</h1>
+        <p>Quick functions:<br></p>
+        <a href="create.html">Create a post<br></a>
+        <a href="export.html">Export your data<br></a>
+        <a href="import.html">Import existing data from another device<br></a>
+        <a onclick="testFun()">Test JavaScript</a>
+        <div id="feed"></div>
+        <script src="scripts/index.js" defer></script>
+    </body>
+</html>
